@@ -34,7 +34,6 @@ Food Munch is a responsive food ordering website built using HTML, CSS, and Boot
 This project helped me improve my skills in HTML, CSS, Bootstrap, responsive web design, and creating modern user interfaces.
 
 ## 👩‍💻 Author
-Adepu Laxmiprasanna.
 
 
 **Laxmiprasanna Adepu**
