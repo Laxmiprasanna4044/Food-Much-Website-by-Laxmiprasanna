@@ -227,3 +227,44 @@
   font-family: "Roboto";
   font-size: 14px;
 }
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    color: #323f4b !important;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 10px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+/* Text Color Change */
+.navbar-nav .nav-link:hover {
+    color: #d0b200 !important;
+}
+
+/* Underline Animation */
+.navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background-color: #d0b200;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 100%;
+}
+
+/* Active Link */
+.navbar-nav .nav-link.active {
+    color: #d0b200 !important;
+}
+
+.navbar-nav .nav-link.active::after {
+    width: 100%;
+}
